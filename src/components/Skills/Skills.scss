@@ -1,0 +1,103 @@
+.all-skills{
+    display: flex;
+    margin-top: 3rem;
+    .my__skills{
+        padding-right: 2rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 15px;
+        text-align: center;
+        
+        
+        .skill-item{
+            margin: 10px;
+        }
+        img{
+            width: 70px;
+        }
+        .skillName{
+            text-transform: uppercase;
+            text-align: center;
+            font-size: .8rem;
+            font-weight: 400;
+            margin-top: 5px;
+        }
+        @media only screen and (max-width: 992px){
+            grid-template-columns: auto auto auto;
+            padding-bottom: 2rem;
+        }
+
+        @media only screen and (max-width: 600px){
+            padding: 0;
+            grid-template-columns: auto auto auto;
+            gap: 10px 0;
+            border: none;
+            margin: auto;
+        }
+    }
+    .education{
+        margin: auto 0;
+        border-left: 2px solid var(--gray-color);
+        .edu{
+            align-items: center;
+            position: relative;
+            padding-left: 3rem;
+
+            .dot{
+                .period{       
+                    padding: 10px;
+                    background-color: var(--lightGray-color);
+                    color: var(--secondary-color);
+                    font-weight: 600;
+                    border-radius: 11px;
+                    margin-right: 20px;
+                    height: max-content;
+
+                    
+                }
+                .faculty,.title{
+                    width: 65%;
+                    p{
+                        color: var(--gray-color);
+                    }
+                }
+
+            &::after{
+                position: absolute;
+                left: -5px;
+                margin-top: 15px;
+                border-radius: 50%;
+                content: '.';
+                color: var(--secondary-color);
+                width: 10px;
+                height: 10px;
+                background-color: var(--secondary-color);
+            }
+            }
+        }
+        @media only screen and (max-width: 600px){
+            border-left: 2px solid var(--gray-color);
+            margin: 2rem auto 1rem;
+            .edu{
+                padding-left: 1rem;
+            }
+            .faculty,.title{
+                width: auto;
+            }
+            .dot{
+                &::after{
+                left: -6px;
+                }
+            }
+        }
+
+        
+    }
+
+    @media only screen and (max-width: 768px) {
+        flex-wrap: wrap;
+        .education{
+            margin-bottom: 2rem;
+        }
+    }
+}
