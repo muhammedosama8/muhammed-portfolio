@@ -28,9 +28,11 @@ import toDoTasks from './myWork/toDoTasks.PNG';
 import portfolio from './myWork/portfolio.jpeg';
 import noon from './myWork/noon.PNG';
 
+import cv from './pdf/Muhammed_Osama_Resume.pdf';
+
 
 export default {
-    css, figma, 
+    css, figma, cv,
     flutter, git, 
     garphql, html, 
     javascript, node, 
