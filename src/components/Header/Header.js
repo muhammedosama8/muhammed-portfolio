@@ -40,7 +40,8 @@ const Header = () => {
                         </div>
 
                         <div className='cv'>
-                            <button className='capitalize '>download <span className='upperCase'>cv</span></button>
+                            <a href={images.cv} target='_blank' download className='download capitalize'>download <span className='upperCase'>cv</span>
+                            </a>
                         </div>
                     </div>
                 </motion.div>
