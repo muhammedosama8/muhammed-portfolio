@@ -1,6 +1,14 @@
 import images from '../assets';
 
-export const myProjects =[
+export const myProjects =[ 
+    {
+        tag: ['react JS', 'all'], 
+        name: 'kabsah', 
+        description: 'resturant website', 
+        url: 'https://kabsah-store.vercel.app/', 
+        img: images.kabsah, 
+        code:'https://github.com/muhammedosama8/kabsah-store'
+    },
     {
         tag: ['web', 'all'], 
         name: 'dashboard', 
@@ -8,6 +16,14 @@ export const myProjects =[
         url: 'https://keen-dashboard.vercel.app/', 
         img: images.dashboard, 
         code:'https://github.com/muhammedosama8/keen-dashboard'
+    },
+    {
+        tag: ['react JS', 'all'], 
+        name: 'portfolio', 
+        description: 'portfolio website',
+        url: 'https://muhammed-portfolio.vercel.app/', 
+        img: images.portfolio, 
+        code:'https://github.com/muhammedosama8/muhammed-portfolio'
     },
     {
         tag: ['web App', 'all'],
@@ -28,7 +44,7 @@ export const myProjects =[
         tag: ['react JS', 'all'], 
         name: 'beema', 
         description: 'beema company', 
-        url: 'https://to-do-tasks-app.vercel.app/', 
+        url: 'https://beema-app-muhammedosama8.vercel.app/', 
         img: images.beema, 
         code:'https://github.com/muhammedosama8/beema-app'
     },
@@ -39,21 +55,5 @@ export const myProjects =[
         url: 'https://to-do-tasks-app.vercel.app/', 
         img: images.toDoTasks, 
         code:'https://github.com/muhammedosama8/to-do-tasks-app'
-    },
-    {
-        tag: ['react JS', 'all'], 
-        name: 'kabsah', 
-        description: 'resturant website', 
-        url: 'https://kabsah-store.vercel.app/', 
-        img: images.kabsah, 
-        code:'https://github.com/muhammedosama8/kabsah-store'
-    },
-    {
-        tag: ['react JS', 'all'], 
-        name: 'portfolio', 
-        description: 'portfolio website',
-        url: 'https://muhammed-portfolio.vercel.app/', 
-        img: images.portfolio, 
-        code:'https://github.com/muhammedosama8/muhammed-portfolio'
     },
 ]
