@@ -10,12 +10,13 @@ const skills = [
     {name: 'css', icon: images.css},
     {name: 'javascript', icon: images.javascript},
     {name: 'sass', icon: images.sass},
+    {name: 'bootstrap', icon: images.bootstrap},
     {name: 'typescript', icon: images.typescript},
     {name: 'react', icon: images.react},
     {name: 'redux', icon: images.redux},
     {name: 'git', icon: images.git},
-    {name: 'garphql', icon: images.garphql},
-    {name: 'node', icon: images.node},
+    {name: 'github', icon: images.github},
+    {name: 'webpack', icon: images.webpack},
     {name: 'flutter', icon: images.flutter},
 ]
 const Skills = () => {

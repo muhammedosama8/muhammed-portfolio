@@ -54,6 +54,6 @@ export const myProjects =[
         description: 'tasks note', 
         url: 'https://to-do-tasks-app.vercel.app/', 
         img: images.toDoTasks, 
-        code:'https://github.com/muhammedosama8/to-do-tasks-app'
+        code:'https://github.com/muhammedosama8/to-do-app'
     },
 ]
