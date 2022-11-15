@@ -24,7 +24,6 @@ const Navbar = () => {
 
                 <div className='navbar-meu'>
                     <HiMenuAlt4 className='open-icon' onClick={() => setToggle(true)} />
-                    {console.log(toggle)}
                     {toggle && (
                         <div>
                             <button className='close-icon' onClick={()=> setToggle(false)} >X</button>

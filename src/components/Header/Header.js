@@ -40,7 +40,7 @@ const Header = () => {
                         </div>
 
                         <div className='cv'>
-                            <a href={images.cv} target='_blank' download className='download capitalize'>download <span className='upperCase'>cv</span>
+                            <a href={images.cv} download className='download capitalize'>download <span className='upperCase'>cv</span>
                             </a>
                         </div>
                     </div>
