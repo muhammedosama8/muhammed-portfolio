@@ -10,6 +10,9 @@ import react from './skills/react.png';
 import redux from './skills/redux.png';
 import sass from './skills/sass.png';
 import typescript from './skills/typescript.png';
+import bootstrap from './skills/bootstrap.png';
+import github from './skills/github.jpg';
+import webpack from './skills/webpack.png';
 
 import about01 from './images/about01.png';
 import about02 from './images/about02.png';
@@ -35,8 +38,8 @@ export default {
     css, figma, cv,
     flutter, git, 
     garphql, html, 
-    javascript, node, 
-    react, redux, 
+    javascript, node, bootstrap , github,
+    react, redux, webpack,
     sass, typescript,
     about01, about02,
     about03, about04, muhammed,
