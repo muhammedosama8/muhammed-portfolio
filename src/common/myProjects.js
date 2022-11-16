@@ -2,6 +2,22 @@ import images from '../assets';
 
 export const myProjects =[ 
     {
+        tag: ['angular', 'all'], 
+        name: 'Bazaar Ecommerce', 
+        description: 'Bazaar Ecommerce website', 
+        url: 'https://bazaar-ecommerce-sable.vercel.app/', 
+        img: images.bazaar, 
+        code:'https://github.com/muhammedosama8/bazaar-ecommerce'
+    },
+    {
+        tag: ['angular', 'all'], 
+        name: 'muthmer', 
+        description: 'muthmer website', 
+        url: 'https://muthmer.vercel.app/', 
+        img: images.muthmer, 
+        code:'https://github.com/muhammedosama8/muthmer'
+    },
+    {
         tag: ['react JS', 'all'], 
         name: 'kabsah', 
         description: 'resturant website', 
@@ -16,6 +32,14 @@ export const myProjects =[
         url: 'https://keen-dashboard.vercel.app/', 
         img: images.dashboard, 
         code:'https://github.com/muhammedosama8/keen-dashboard'
+    },
+    {
+        tag: ['web', 'all'], 
+        name: 'memory game', 
+        description: 'memory game website', 
+        url: 'https://memory-game-tau-henna.vercel.app/', 
+        img: images.memory, 
+        code:'https://github.com/muhammedosama8/memory-game'
     },
     {
         tag: ['react JS', 'all'], 
@@ -33,13 +57,6 @@ export const myProjects =[
         img: images.noon, 
         code:'https://github.com/muhammedosama8/noon-website'
     },
-    {
-        tag: ['task', 'all'], 
-        name: 'car animate', 
-        description: 'Animated car', 
-        url: 'https://car-animation-night.vercel.app/', 
-        img: images.animation, 
-        code:'https://github.com/muhammedosama8/car-animation-night'},
     {
         tag: ['react JS', 'all'], 
         name: 'beema', 

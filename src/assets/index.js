@@ -23,27 +23,20 @@ import email from './images/email.png';
 import circle from './images/circle.svg';
 import muhammed from './images/muhammed.png';
 
-import animation from './myWork/animation.PNG';
 import beema from './myWork/beema.PNG';
 import dashboard from './myWork/dashboard.PNG';
 import kabsah from './myWork/kabsah.PNG';
 import toDoTasks from './myWork/toDoTasks.PNG';
-import portfolio from './myWork/portfolio.jpeg';
+import portfolio from './myWork/portfolio.jpg';
 import noon from './myWork/noon.PNG';
+import muthmer from './myWork/muthmer.png';
+import memory from './myWork/memory-game.png';
+import bazaar from './myWork/bazaar-ecommerce.png';
 
 import cv from './pdf/Muhammed_Osama_Resume.pdf';
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
-    css, figma, cv,
-    flutter, git, 
-    garphql, html, 
-    javascript, node, bootstrap , github,
-    react, redux, webpack,
-    sass, typescript,
-    about01, about02,
-    about03, about04, muhammed,
-    circle, mobile, email,
-    animation, beema, dashboard, kabsah,
-    toDoTasks, portfolio, noon
+    css, figma, cv, flutter, git, garphql, html, javascript, node, bootstrap , github, react, redux, webpack,sass, typescript, about01, about02, about03, about04, muhammed, circle, mobile, email, beema, dashboard, kabsah, toDoTasks, portfolio, noon, memory, muthmer, bazaar
 };
