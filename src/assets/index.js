@@ -33,7 +33,7 @@ import muthmer from './myWork/muthmer.png';
 import memory from './myWork/memory-game.png';
 import bazaar from './myWork/bazaar-ecommerce.png';
 
-import cv from './pdf/Muhammed_Osama_Resume.pdf';
+import cv from './pdf/Muhammed_Resume.pdf';
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
