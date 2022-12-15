@@ -26,6 +26,14 @@ export const myProjects =[
         code:'https://github.com/muhammedosama8/kabsah-store'
     },
     {
+        tag: ['react JS', 'all'], 
+        name: 'CRUD', 
+        description: 'CRUD Users', 
+        url: 'https://crud-users-omega.vercel.app', 
+        img: images.kabsah, 
+        code:'https://github.com/muhammedosama8/crud-users'
+    },
+    {
         tag: ['web', 'all'], 
         name: 'dashboard', 
         description: 'dashboard website', 
