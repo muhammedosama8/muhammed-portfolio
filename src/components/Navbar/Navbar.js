@@ -3,7 +3,9 @@ import {HiMenuAlt4} from 'react-icons/hi';
 import './Navbar.scss';
 
 const Navbar = () => {
+    const list = ['home', 'information', 'work', 'about', 'skills', 'contact']
     const [toggle, setToggle] = useState(false);
+    const [active, setActive] = useState('home');
 
     return ( 
         <div className='navbar'>
@@ -13,10 +15,14 @@ const Navbar = () => {
                 </div>
                 <div className='navbar-list'>
                     <ul className='menu'>
-                    {['home', 'information', 'work', 'about', 'skills', 'contact'].map((item, index) => (
-                        <li className='menu-item' key={index}>
+                    {list.map((item, index) => (
+                        <li className={`menu-item ${item === active ? 'active' : ''}`} key={index}>
                             <div />
-                            <a className='menu-item-link' href={`#${item}`}>{item}</a>
+                            <a 
+                                className='menu-item-link' 
+                                href={`#${item}`}
+                                onClick={()=> setActive(item)}
+                            >{item}</a>
                         </li>
                     ))}
                     </ul>

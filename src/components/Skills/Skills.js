@@ -16,8 +16,7 @@ const skills = [
     {name: 'redux', icon: images.redux},
     {name: 'git', icon: images.git},
     {name: 'github', icon: images.github},
-    {name: 'webpack', icon: images.webpack},
-    {name: 'flutter', icon: images.flutter},
+    {name: 'webpack', icon: images.webpack}
 ]
 const Skills = () => {
     return ( 
@@ -49,6 +48,21 @@ const Skills = () => {
                             <div className='faculty'>
                                 <h3>Graduate Of The Faculty Of Computing And Information</h3>
                                 <p>Department Of Information System</p>
+                            </div>
+                        </div>
+                        <div className='dot d-flex mt-2'>
+                            <div className='period'><p>2023 - Now</p></div>
+                            <div className='title'>
+                                <h3>Frontend Developer at Pencil-Designs</h3>
+                                <p>Works as a Frontend Developer using ReactJs.</p>
+                            </div>
+                        </div>
+                        <div className='dot d-flex mt-2'>
+                            <div className='period'><p>2023 - Now</p></div>
+                            <div className='title'>
+                                <h3>Freelancer</h3>
+                                <p>Designed 9+ Web applications using Bootstrap and React.</p>
+                                <p>Designed 2+ Web applications using Angular.</p>
                             </div>
                         </div>
                         <div className='dot d-flex mt-2'>

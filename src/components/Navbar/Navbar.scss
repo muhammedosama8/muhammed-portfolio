@@ -53,6 +53,18 @@
             @media (max-width: 768px) {
                 display: none;
             }
+            .active {
+                div {
+                    width: 5px;
+                    height: 5px;
+                    border-radius: 50%;
+                    margin: 0 auto 5px;
+                    background:var(--secondary-color);
+                  }
+                .menu-item-link{
+                    color: var(--secondary-color);
+                }
+            }
         }
     }
     .navbar-meu{

@@ -66,7 +66,7 @@ const Header = () => {
                     whileInView={scaleVariants.whileInView}
                     className='header-circles'
                 >
-                    {[images.flutter, images.redux, images.sass].map((img,index) => (
+                    {[images.react, images.redux, images.sass].map((img,index) => (
                         <div key={index}>
                             <img src={img} alt="profile_bg" />
                         </div>

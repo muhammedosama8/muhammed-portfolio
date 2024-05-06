@@ -2,6 +2,22 @@ import images from '../assets';
 
 export const myProjects =[ 
     {
+        tag: ['react JS', 'all'], 
+        name: 'Sabah Al-Salem', 
+        description: 'Sabah Al-Salem Association + Dashboard',
+        url: 'https://association-website-liard.vercel.app/', 
+        img: '', 
+        code:''
+    },
+    {
+        tag: ['react JS', 'all'], 
+        name: 'Cloud Lift Solution', 
+        description: 'Cloud Lift Solution + Dashboard',
+        url: 'https://cloud-lift-solution.vercel.app/', 
+        img: images.cloud, 
+        code:''
+    },
+    {
         tag: ['angular', 'all'], 
         name: 'Bazaar Ecommerce', 
         description: 'Bazaar Ecommerce website', 
@@ -25,14 +41,14 @@ export const myProjects =[
         img: images.kabsah, 
         code:'https://github.com/muhammedosama8/kabsah-store'
     },
-    {
-        tag: ['react JS', 'all'], 
-        name: 'CRUD', 
-        description: 'CRUD Users', 
-        url: 'https://crud-users-omega.vercel.app', 
-        img: images.kabsah, 
-        code:'https://github.com/muhammedosama8/crud-users'
-    },
+    // {
+    //     tag: ['react JS', 'all'], 
+    //     name: 'CRUD', 
+    //     description: 'CRUD Users', 
+    //     url: 'https://crud-users-omega.vercel.app', 
+    //     img: images.kabsah, 
+    //     code:'https://github.com/muhammedosama8/crud-users'
+    // },
     {
         tag: ['web', 'all'], 
         name: 'dashboard', 

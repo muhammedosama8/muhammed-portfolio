@@ -1,6 +1,5 @@
 import css from './skills/css.png';
 import figma from './skills/figma.png';
-import flutter from './skills/flutter.png';
 import git from './skills/git.png';
 import garphql from './skills/graphql.png';
 import html from './skills/html.png';
@@ -11,7 +10,7 @@ import redux from './skills/redux.png';
 import sass from './skills/sass.png';
 import typescript from './skills/typescript.png';
 import bootstrap from './skills/bootstrap.png';
-import github from './skills/github.jpg';
+import github from './skills/github.png';
 import webpack from './skills/webpack.png';
 
 import about01 from './images/about01.png';
@@ -33,16 +32,17 @@ import muthmer from './myWork/muthmer.png';
 import memory from './myWork/memory-game.png';
 import bazaar from './myWork/bazaar-ecommerce.png';
 import crud from './myWork/crud.png'
+import cloud from './myWork/cloud-lift-solution.png'
 
 import cv from './pdf/Muhammed_Resume.pdf';
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-    css, figma, cv, flutter, git, garphql, html,
+    css, figma, cv, git, garphql, html,
     javascript, node, bootstrap , github, react, redux, 
     webpack,sass, typescript, about01, about02, about03, 
     about04, muhammed, circle, mobile, email, beema, dashboard, 
     kabsah, toDoTasks, portfolio, noon, memory, muthmer, bazaar,
-    crud
+    crud, cloud
 };

@@ -5,6 +5,7 @@ import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import './Work.scss';
 import { myProjects } from '../../common/myProjects';
 import MotionWrap from '../../common/MotionWrap';
+import images from '../../assets';
 
 const Work = () => {
     const [works, setWorks] = useState([]);
@@ -54,12 +55,10 @@ const Work = () => {
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className="work-portfolio"
             >
-                {filterWork.map((work, index) => (
+                {filterWork?.length > 0 ? filterWork.map((work, index) => (
                 <div className="work-item flex" key={index}>
-                    <div
-                    className="work-img flex"
-                    >
-                    <img src={work.img} alt={work.name} />
+                    <div className="work-img flex" >
+                        <img src={work.img || images.about04} alt={work.name} />
 
                     <motion.div
                         whileHover={{ opacity: [0, 1] }}
@@ -77,7 +76,7 @@ const Work = () => {
                             <AiFillEye />
                         </motion.div>
                         </a>
-                        <a href={work.code} target="_blank" rel="noreferrer">
+                        {!!work.code && <a href={work.code} target="_blank" rel="noreferrer">
                         <motion.div
                             whileInView={{ scale: [0, 1] }}
                             whileHover={{ scale: [1, 0.90] }}
@@ -86,7 +85,7 @@ const Work = () => {
                         >
                             <AiFillGithub />
                         </motion.div>
-                        </a>
+                        </a>}
                     </motion.div>
                     </div>
 
@@ -99,7 +98,7 @@ const Work = () => {
                     </div>
                     </div>
                 </div>
-                ))}
+                )) : <p>No Data Available</p>}
             </motion.div>
             </div>
         </div> 
