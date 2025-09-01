@@ -41,6 +41,14 @@ export const myProjects = [
 		img: images.cloud,
 		code: "",
 	},
+	// {
+	// 	tag: ["react JS", "all"],
+	// 	name: "Cloud Lift Solution",
+	// 	description: "Cloud Lift Solution + Dashboard",
+	// 	url: "https://cloud-lift-solution.vercel.app/",
+	// 	img: images.cloud,
+	// 	code: "",
+	// },
 	{
 		tag: ["angular", "all"],
 		name: "Bazaar Ecommerce",
